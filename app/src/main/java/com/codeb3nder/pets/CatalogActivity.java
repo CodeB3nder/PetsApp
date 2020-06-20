@@ -89,6 +89,7 @@ public class CatalogActivity extends AppCompatActivity {
                 PetEntry.COLUMN_PET_WEIGHT };
 
         // Perform a query on the pets table
+        // The result is a cursor object
         Cursor cursor = db.query(
                 PetEntry.TABLE_NAME,   // The table to query
                 projection,            // The columns to return
