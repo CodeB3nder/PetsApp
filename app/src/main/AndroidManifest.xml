@@ -14,8 +14,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <provider
-            android:name=".data.PetProvider"
-            android:authorities="com.example.android.pets"
+            android:name="com.codeb3nder.pets.data.PetProvider"
+            android:authorities="com.codeb3nder.pets"
             android:exported="false" />
 
 
